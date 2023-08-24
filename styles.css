@@ -20,6 +20,13 @@
     min-height: 100%;
    
     padding-top: 100px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+
+
+
+    
 }
 .card{
     background-color: #F4F6F6;
@@ -27,22 +34,16 @@
     height: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    position: absolute;
+    
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
    
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
 
-}
-.card1{
-    margin-left: 200px;
-}
-.card2{
-    margin-left: 520px;
-}
-.card3{
-    margin-left: 830px;
-    margin-right: 50px;
-}
 .img_fondo{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -51,38 +52,35 @@
 }
 .img-personaje{
     border-radius: 50%;
+    width: 100px;
     position: absolute;
-    margin-top: 90px;
-    right: 70px;
-
+    top: 200px;
+        
 }
-
 .corazon{
-    position: absolute;
-    top: 10px;
-}
-p{
-    padding: 20px;
-}
-h2{
-    padding-top: 40px;
+    position: relative;
+    left: -110px;
+    top: -140px;
     
-    text-align: center;
+}
+.card h2{
+    padding-top: 25px;
+}
 
-    
-}
+
+
+
 button{
     background-color:  #7FB3D5;
-    position: relative;
+  
     left: 70px;
     height: 40px;
     width: 100px;
     color: #F4F6F6;
-    font-weight: 500;
-    
+    font-weight: 500;   
 }
 footer{
-    position: absolute;
+    
     background-color: #7FB3D5;
     bottom: -100px;
     width: 100%;
@@ -91,6 +89,8 @@ footer{
 }
 footer h2{
     font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
    
     
 }
